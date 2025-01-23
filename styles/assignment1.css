@@ -5,7 +5,27 @@
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
+
+body {
+    background-color: #F1F1F3;
+}
+
+body button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+/* shared buttons */
+
+.primary-button {
+    background-color: #006A50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+}
 
 /* opening styles */
 
@@ -17,8 +37,9 @@
     align-items: center;
     margin: 0 auto;
     margin-top: 120px;
+    margin-bottom: 120px;
     gap: 64px;
-    background-color: #a8ffe9a2;
+    background-color: rgba(198, 228, 214, 1);
     border-radius: 15px;
 }
 
@@ -44,5 +65,197 @@
     width: 270px;
     height: 56px;
     font-size: 16px;
+    font-weight: 600;
     border-radius: 10px;
 }
+
+/* vision styles */
+
+.vision-section > h1 {
+    font-size: 40px;
+}
+
+.vision-section {
+    width: 1280px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+.vision-cards {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.vision-cards div {
+    width: 410px;
+    height: 290px;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px black;
+}
+
+.vision-cards h4 {
+    font-size: 20px;
+}
+
+
+
+.cards-1 {
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 20px;
+}
+
+.card-button-01 {
+    width: 122px;
+    height: 41px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: #5490F5;
+    margin-left: 15px;
+}
+
+.card-button-02 {
+    width: 122px;
+    height: 41px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: #09A15C;
+    margin: 15px;
+}
+
+.card-button-03 {
+    width: 122px;
+    height: 41px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: #FFC239;
+    margin: 15px;
+}
+
+.cards-2 {
+    background-color: rgba(198, 228, 214, 1);
+    padding: 20px;
+}
+
+.cards-3 {
+    background-color: rgba(247, 235, 207, 1);
+    padding: 20px;
+}
+
+.yunus {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 1280px;
+    height: 300px;
+    background: white;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 1% 10%;
+    border-radius: 10px;
+}
+
+.yunus-description {
+    padding: 35px 10px;
+}
+
+.yunus-name {
+    padding-top: 0px;
+    padding-left: 10px;
+    font-size: 24px;
+}
+
+.yunus-title {
+    padding-top: 0px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* news styles */
+
+.news-section {
+    margin: 0 auto;
+    width: 1280px;
+    height: 1000px;
+}
+
+.news-1 {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.image-box img {
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.date-time {
+    display: flex;
+    gap: 20px;
+    margin-bottom: o;
+}
+
+.news-title {
+    font-size: 30px;
+}
+
+.news-description {
+    margin-top: 5px;
+}
+
+.news-button {
+    width: 120px;
+    height: 48px;
+}
+
+.news-title {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.first-news {
+    margin-bottom: 30px;
+}
+
+/* donate styles */
+
+.donate-section {
+    width: 1280px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+.donate-title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.amount-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.amount-box .amount {
+    width: 252px;
+    height: 128px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
