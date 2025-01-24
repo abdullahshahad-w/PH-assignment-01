@@ -242,6 +242,11 @@ body button:hover {
     font-size: 40px;
 }
 
+.donate-description {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
 .amount-box {
     display: flex;
     justify-content: center;
@@ -256,6 +261,66 @@ body button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid rgb(216, 216, 216);
     border-radius: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: white;
 }
+
+#special-donate {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+#special-donate:hover {
+    cursor: pointer;
+    background-color: #006A50;
+    color: white;
+}
+
+.amount-box .amount:hover {
+    cursor: pointer;
+    background-color: #006A50;
+    color: white;
+}
+
+.donate-input-box {
+    margin: 32px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donate-input {
+    width: 1032px;
+    height: 64px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 2px solid rgb(216, 216, 216);
+}
+
+.donate-button {
+    margin: 32px auto;
+    width: 151px;
+    height: 56px;
+}
+
+/* subscribe styles */
+
+.subscribe-section {
+    margin: 80px auto;
+    width: 1280px;
+    height: 390px;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 
